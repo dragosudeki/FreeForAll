@@ -1,0 +1,34 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(CharSelGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "800 600";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "613 17";
+      Extent = "165 34";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "$charSel.mainMenu();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/gui/free for all menu/main menu.png";
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,164 @@
+%levelContent = new t2dSceneGraph() {
+   canSaveDynamicFields = "1";
+   UseLayerSorting = "1";
+   layerSortMode0 = "Normal";
+   layerSortMode1 = "Normal";
+   layerSortMode2 = "Normal";
+   layerSortMode3 = "Normal";
+   layerSortMode4 = "Normal";
+   layerSortMode5 = "Normal";
+   layerSortMode6 = "Normal";
+   layerSortMode7 = "Normal";
+   layerSortMode8 = "Normal";
+   layerSortMode9 = "Normal";
+   layerSortMode10 = "Normal";
+   layerSortMode11 = "Normal";
+   layerSortMode12 = "Normal";
+   layerSortMode13 = "Normal";
+   layerSortMode14 = "Normal";
+   layerSortMode15 = "Normal";
+   layerSortMode16 = "Normal";
+   layerSortMode17 = "Normal";
+   layerSortMode18 = "Normal";
+   layerSortMode19 = "Normal";
+   layerSortMode20 = "Normal";
+   layerSortMode21 = "Normal";
+   layerSortMode22 = "Normal";
+   layerSortMode23 = "Normal";
+   layerSortMode24 = "Normal";
+   layerSortMode25 = "Normal";
+   layerSortMode26 = "Normal";
+   layerSortMode27 = "Normal";
+   layerSortMode28 = "Normal";
+   layerSortMode29 = "Normal";
+   layerSortMode30 = "Normal";
+   layerSortMode31 = "Normal";
+   DebugRendering = "0";
+      cameraPosition = "0.000000 0.000000";
+      cameraSize = "100 75";
+
+   new t2dAnimatedSprite(casperEvent) {
+      animationName = "casperWalk";
+      canSaveDynamicFields = "1";
+      Position = "80.000 24.686";
+      size = "12.937 12.937";
+      CollisionPolyList = "-0.555 -0.673 0.555 -0.673 0.550 0.869 -0.555 0.869";
+         mountID = "2";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "leafAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-26.071 -59.970";
+      size = "10.309 5.095";
+         mountID = "3";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "rupesChargeAnimation";
+      canSaveDynamicFields = "1";
+      class = "mainEvent1";
+      Position = "-126.000 -27.000";
+      size = "12.936 12.936";
+      Layer = "1";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+      CollisionPhysicsSend = "0";
+      CollisionPhysicsReceive = "0";
+      CollisionCallback = "1";
+         mountID = "4";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      class = "TurnAround1";
+      Position = "138.151 -30.625";
+      size = "16.000 33.313";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+      CollisionPhysicsSend = "0";
+      CollisionPhysicsReceive = "0";
+      CollisionCallback = "1";
+         mountID = "5";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      class = "EndTurn1";
+      Position = "-154.550 -30.625";
+      size = "10.117 33.313";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+      CollisionPhysicsSend = "0";
+      CollisionPhysicsReceive = "0";
+      CollisionCallback = "1";
+         mountID = "6";
+   };
+   new t2dAnimatedSprite(eltontaEvent) {
+      animationName = "eltontaWalk";
+      canSaveDynamicFields = "1";
+      Position = "-157.000 25.000";
+      size = "11.915 11.915";
+         mountID = "7";
+   };
+   new t2dAnimatedSprite(belshazzarEvent) {
+      animationName = "belshazzarRun";
+      canSaveDynamicFields = "1";
+      Position = "-75.000 -12.500";
+      size = "14.632 16.218";
+         mountID = "8";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "belshazzarCard";
+      canSaveDynamicFields = "1";
+      Position = "-68.816 -14.360";
+      size = "5.000 5.000";
+         mountID = "9";
+   };
+   new t2dStaticSprite() {
+      imageMap = "blankImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      class = "mainScreen";
+      Position = "-0.137 -0.156";
+      size = "100.509 75.715";
+      Layer = "15";
+         mountID = "10";
+   };
+   new t2dStaticSprite() {
+      imageMap = "free_for_all_titleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1.000 -26.417";
+      size = "69.383 12.496";
+      Layer = "3";
+         mountID = "11";
+   };
+   new t2dStaticSprite() {
+      imageMap = "blankImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      class = "mainScreen";
+      Position = "0.000 2.174";
+      size = "38.000 33.358";
+      Layer = "1";
+      BlendColor = "0 0 0 1";
+         mountID = "12";
+   };
+   new t2dStaticSprite() {
+      imageMap = "blankImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      class = "mainScreen";
+      Position = "-0.084 2.100";
+      size = "35.295 30.983";
+         mountID = "13";
+   };
+   new t2dAnimatedSprite(yukiEvent) {
+      animationName = "yukiAttack";
+      canSaveDynamicFields = "1";
+      Position = "100.000 2.500";
+      size = "12.233 12.233";
+         mountID = "14";
+   };
+};

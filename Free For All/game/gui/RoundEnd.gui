@@ -1,0 +1,88 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(RoundEnd) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "bottom";
+      Position = "293 224";
+      Extent = "130 32";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "$timer.restartLevel();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/gui/free for all menu/restart.png";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "bottom";
+      Position = "242 304";
+      Extent = "246 31";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "$timer.goBackToChar();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/gui/free for all menu/char select.png";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "bottom";
+      Position = "320 342";
+      Extent = "82 33";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "quit();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/gui/free for all menu/quit.png";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "bottom";
+      Position = "276 264";
+      Extent = "168 32";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "$timer.goBackToMain();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/gui/free for all menu/main menu.png";
+   };
+};
+//--- OBJECT WRITE END ---

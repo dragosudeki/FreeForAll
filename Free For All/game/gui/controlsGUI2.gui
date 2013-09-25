@@ -1,0 +1,34 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(controlsGUI) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "800 600";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "bottom";
+      Position = "325 401";
+      Extent = "150 42";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "$control.goToMain();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/gui/free for all menu/main menu.png";
+   };
+};
+//--- OBJECT WRITE END ---
